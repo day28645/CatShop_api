@@ -1,12 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project-intern\\CatShop_api\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Internship\\CatShop_api\\CatShop_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CatShop_api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T04:10:34.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
