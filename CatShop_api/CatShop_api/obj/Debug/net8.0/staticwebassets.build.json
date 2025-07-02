@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "po3ZXUGmqhZN58bmQv20+PC7YFSU7ygm+K5mLiGrJr4=",
-  "Source": "CatShop_api",
-  "BasePath": "_content/CatShop_api",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"po3ZXUGmqhZN58bmQv20+PC7YFSU7ygm+K5mLiGrJr4=","Source":"CatShop_api","BasePath":"_content/CatShop_api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

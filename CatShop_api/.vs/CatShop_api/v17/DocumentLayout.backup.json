@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project-intern\\CatShop_api\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Internship\\CatShop_api\\CatShop_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\catshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\catshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\appsettings.json",
+              "RelativeDocumentMoniker": "CatShop_api\\appsettings.json",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\appsettings.json",
+              "RelativeToolTip": "CatShop_api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T04:02:55.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Program.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Program.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Program.cs",
+              "RelativeToolTip": "CatShop_api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:51:21.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Models\\User.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\User.cs",
+              "RelativeToolTip": "CatShop_api\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:48:36.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CatShop_api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:59:02.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatshopDbContext.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\CatshopDbContext.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Models\\CatshopDbContext.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\CatshopDbContext.cs",
+              "RelativeToolTip": "CatShop_api\\Models\\CatshopDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:39:52.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
