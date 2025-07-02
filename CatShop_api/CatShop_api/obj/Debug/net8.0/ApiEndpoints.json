@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userDB",
-        "Type": "CatShop_api.Models.User",
+        "Name": "usersRequest",
+        "Type": "CatShop_api.APIModel.UsersRequestModel",
         "IsRequired": true
       }
     ],

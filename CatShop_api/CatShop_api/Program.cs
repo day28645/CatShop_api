@@ -14,6 +14,7 @@ builder.Services.AddDbContext<CatshopDbContext>(op =>
     op.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
 });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,6 +23,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(x =>
+    x.AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin
+    .AllowCredentials()); // allow credentials);
 
 app.UseHttpsRedirection();
 

@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UsersRequestModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UsersRequestModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UsersRequestModel"
               }
             }
           }
@@ -88,12 +88,12 @@
   },
   "components": {
     "schemas": {
-      "User": {
+      "UsersRequestModel": {
         "type": "object",
         "properties": {
-          "userid": {
+          "userName": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "firstname": {
             "type": "string",
@@ -103,20 +103,11 @@
             "type": "string",
             "nullable": true
           },
-          "username": {
+          "birthdate": {
             "type": "string",
             "nullable": true
           },
           "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "birthdate": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "gender": {
             "type": "string",
             "nullable": true
           },
@@ -129,14 +120,6 @@
             "nullable": true
           },
           "phone": {
-            "type": "string",
-            "nullable": true
-          },
-          "createby": {
-            "type": "string",
-            "nullable": true
-          },
-          "modifiedby": {
             "type": "string",
             "nullable": true
           }

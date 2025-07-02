@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\apimodel\\usersrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\apimodel\\usersrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\catshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\catshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\catshop_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\catshop_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\catshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\catshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Models\\User.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\User.cs",
+              "RelativeToolTip": "CatShop_api\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T08:57:52.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsersRequestModel.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\APIModel\\UsersRequestModel.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\APIModel\\UsersRequestModel.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\APIModel\\UsersRequestModel.cs",
+              "RelativeToolTip": "CatShop_api\\APIModel\\UsersRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T08:55:57.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatShop_api.http",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\CatShop_api.http",
+              "RelativeDocumentMoniker": "CatShop_api\\CatShop_api.http",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\CatShop_api.http",
+              "RelativeToolTip": "CatShop_api\\CatShop_api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-02T08:01:48.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\appsettings.json",
               "RelativeDocumentMoniker": "CatShop_api\\appsettings.json",
@@ -47,28 +94,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Program.cs",
               "RelativeDocumentMoniker": "CatShop_api\\Program.cs",
               "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Program.cs",
               "RelativeToolTip": "CatShop_api\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwB0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T07:51:21.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\User.cs",
-              "RelativeDocumentMoniker": "CatShop_api\\Models\\User.cs",
-              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\User.cs",
-              "RelativeToolTip": "CatShop_api\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:48:36.052Z",
               "EditorCaption": ""
             },
             {
@@ -79,14 +113,14 @@
               "RelativeDocumentMoniker": "CatShop_api\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "CatShop_api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T07:59:02.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CatshopDbContext.cs",
               "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\CatshopDbContext.cs",
               "RelativeDocumentMoniker": "CatShop_api\\Models\\CatshopDbContext.cs",
@@ -94,8 +128,7 @@
               "RelativeToolTip": "CatShop_api\\Models\\CatshopDbContext.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:39:52.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:39:52.197Z"
             }
           ]
         }

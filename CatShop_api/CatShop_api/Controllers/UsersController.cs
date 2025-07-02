@@ -1,4 +1,5 @@
-﻿using CatShop_api.Models;
+﻿using CatShop_api.APIModel;
+using CatShop_api.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CatShop_api.Controllers
@@ -8,9 +9,9 @@ namespace CatShop_api.Controllers
 
     public class UsersController : Controller
     {
-        private readonly CatshopDbContext _context; 
-        public UsersController(CatshopDbContext context) 
-        {         
+        private readonly CatshopDbContext _context;
+        public UsersController(CatshopDbContext context)
+        {
             _context = context;
         }
         [HttpGet]
@@ -18,41 +19,49 @@ namespace CatShop_api.Controllers
         {
             //var user = _context.Users.ToList();
             var linqUser = (from s in _context.Users select s).ToList();
-            
+
             return Ok(linqUser);
         }
 
         [HttpPost]
-        public IActionResult CreateUser(User userDB)
+        public IActionResult CreateUser(UsersRequestModel usersRequest)
         {
-            var checkUser = _context.Users.FirstOrDefault(c => c.Phone == userDB.Phone);
+            var checkUser = _context.Users.FirstOrDefault(c => c.Username == usersRequest.UserName);
             if (checkUser != null)
             {
                 ModelState.AddModelError("Username", "Username is already used");
                 var validation = new ValidationProblemDetails(ModelState);
-                return BadRequest(validation);
+                return Ok(validation);
             }
-
-            var user = new User
+            var userCreate = new User
             {
                 Userid = Guid.NewGuid(),
-                Firstname = userDB.Firstname,
-                Lastname = userDB.Lastname,
-                Username = userDB.Username,
-                Password = userDB.Password,
-                Birthdate = userDB.Birthdate,
-                Gender = userDB.Gender,
-                Email = userDB.Email,
-                Address = userDB.Address,
-                Phone = userDB.Phone,
-                Createby = userDB.Createby,
+                Username = usersRequest.UserName,
+                Firstname = usersRequest.Firstname,
+                Lastname = usersRequest.Lastname,
+                Password = usersRequest.Password,
+                Email = usersRequest.Email,
+                Address = usersRequest.Address,
+                Phone = usersRequest.Phone,
+                Birthdate = DateTime.Now,
+                Createby = "Day",
+                Gender = "0",
+                Modifiedby = null
 
             };
-            _context.Users.Add(user);
-            _context.SaveChanges();
 
-            return Ok(user);
+            _context.Users.Add(userCreate);
+            var result =  _context.SaveChanges();
+            if(result > 0)
+            {
+                return Ok("Create Success");
+            }
+            else
+            {
+                return BadRequest();
+            }
+           
         }
-        
+
     }
 }
