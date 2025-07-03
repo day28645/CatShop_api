@@ -15,13 +15,15 @@ public partial class CatshopDbContext : DbContext
     {
     }
 
-    public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<Users> Users { get; set; }
+
+    public virtual DbSet<Login> Login { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<User>(entity =>
+        modelBuilder.Entity<Users>(entity =>
         {
             entity.HasKey(e => e.Userid).HasName("PK__users__CBA1B2578D6CFF84");
 
@@ -61,10 +63,8 @@ public partial class CatshopDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("modifiedby");
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("password");
+            entity.Property(e => e.PasswordHash).HasMaxLength(512);
+            entity.Property(e => e.PasswordSalt).HasMaxLength(128);
             entity.Property(e => e.Phone)
                 .HasMaxLength(10)
                 .IsUnicode(false)
@@ -73,6 +73,20 @@ public partial class CatshopDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("username");
+        });
+
+        modelBuilder.Entity<Login>(entity =>
+        {
+            entity.HasKey(e => e.Loginid).HasName("PK__Login__4DD9246092C5800C");
+
+            entity.ToTable("Login");
+
+            entity.Property(e => e.Loginid).ValueGeneratedNever();
+            entity.Property(e => e.LoginDateTime).HasColumnType("datetime");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Logins)
+                .HasForeignKey(d => d.Userid)
+                .HasConstraintName("FK__Login__Userid__49C3F6B7");
         });
 
         OnModelCreatingPartial(modelBuilder);

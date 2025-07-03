@@ -6,7 +6,6 @@ namespace CatShop_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
     public class UsersController : Controller
     {
         private readonly CatshopDbContext _context;
@@ -33,26 +32,35 @@ namespace CatShop_api.Controllers
                 var validation = new ValidationProblemDetails(ModelState);
                 return Ok(validation);
             }
-            var userCreate = new User
+
+            AESOparation aESOparation = new AESOparation();
+            var passwordhash = aESOparation.HashPasword(usersRequest.Password, out var salt);
+            Console.WriteLine($"Password hash: {passwordhash}");
+            Console.WriteLine($"Generated salt: {Convert.ToHexString(salt)}");
+
+
+            var userCreate = new Users
             {
                 Userid = Guid.NewGuid(),
                 Username = usersRequest.UserName,
                 Firstname = usersRequest.Firstname,
                 Lastname = usersRequest.Lastname,
-                Password = usersRequest.Password,
+                //Password = usersRequest.Password,
                 Email = usersRequest.Email,
                 Address = usersRequest.Address,
                 Phone = usersRequest.Phone,
                 Birthdate = DateTime.Now,
                 Createby = usersRequest.UserName,
                 Gender = usersRequest.Gender,
-                Modifiedby = null
+                Modifiedby = null,
+                PasswordHash = passwordhash,
+                PasswordSalt = salt,
 
             };
 
             _context.Users.Add(userCreate);
-            var result =  _context.SaveChanges();
-            if(result > 0)
+            var result = _context.SaveChanges();
+            if (result > 0)
             {
                 return Ok("Create Success");
             }
@@ -60,7 +68,7 @@ namespace CatShop_api.Controllers
             {
                 return BadRequest();
             }
-           
+           // return Ok();
         }
 
     }

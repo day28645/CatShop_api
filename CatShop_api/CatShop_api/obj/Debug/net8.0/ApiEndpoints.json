@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "CatShop_api.Controllers.LoginsController",
+    "Method": "UserLogin",
+    "RelativePath": "api/Logins/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginsRequest",
+        "Type": "CatShop_api.APIModel.LoginsRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CatShop_api.Controllers.UsersController",
     "Method": "GetUser",
     "RelativePath": "api/Users",
