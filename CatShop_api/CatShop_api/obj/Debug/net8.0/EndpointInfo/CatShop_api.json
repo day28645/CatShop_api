@@ -15,7 +15,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Users/CreateUser": {
       "post": {
         "tags": [
           "Users"
@@ -120,6 +122,10 @@
             "nullable": true
           },
           "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
             "type": "string",
             "nullable": true
           }

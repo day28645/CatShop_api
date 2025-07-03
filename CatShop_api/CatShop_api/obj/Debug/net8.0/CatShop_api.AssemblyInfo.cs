@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatShop_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4eaa3d06218076428c526082863cd649374eb02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fc19f2f84ee120dad5b06a2da60c82b6532b55a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatShop_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatShop_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

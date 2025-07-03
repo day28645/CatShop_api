@@ -23,7 +23,7 @@ namespace CatShop_api.Controllers
             return Ok(linqUser);
         }
 
-        [HttpPost]
+        [HttpPost("CreateUser")]
         public IActionResult CreateUser(UsersRequestModel usersRequest)
         {
             var checkUser = _context.Users.FirstOrDefault(c => c.Username == usersRequest.UserName);
@@ -44,8 +44,8 @@ namespace CatShop_api.Controllers
                 Address = usersRequest.Address,
                 Phone = usersRequest.Phone,
                 Birthdate = DateTime.Now,
-                Createby = "Day",
-                Gender = "0",
+                Createby = usersRequest.UserName,
+                Gender = usersRequest.Gender,
                 Modifiedby = null
 
             };
