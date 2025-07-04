@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\Internship\\CatShop_api\\CatShop_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\catshop_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\catshop_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\aesoparation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\aesoparation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\apimodel\\loginsapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\apimodel\\loginsapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|d:\\internship\\catshop_api\\catshop_api\\catshop_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A272485-47BC-4EA5-BD53-1B7177F2EA20}|CatShop_api\\CatShop_api.csproj|solutionrelative:catshop_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CatShop_api",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\CatShop_api.csproj",
+              "RelativeDocumentMoniker": "CatShop_api\\CatShop_api.csproj",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\CatShop_api.csproj",
+              "RelativeToolTip": "CatShop_api\\CatShop_api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T08:09:24.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\Models\\Login.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Models\\Login.cs",
+              "RelativeToolTip": "CatShop_api\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:42:24.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginsAPIModel.cs",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\APIModel\\LoginsAPIModel.cs",
+              "RelativeDocumentMoniker": "CatShop_api\\APIModel\\LoginsAPIModel.cs",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\APIModel\\LoginsAPIModel.cs",
+              "RelativeToolTip": "CatShop_api\\APIModel\\LoginsAPIModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T09:39:17.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CatShop_api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CatShop_api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T09:17:40.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AESOparation.cs",
               "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\AESOparation.cs",
               "RelativeDocumentMoniker": "CatShop_api\\AESOparation.cs",
               "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\AESOparation.cs",
               "RelativeToolTip": "CatShop_api\\AESOparation.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T08:47:47.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginsController.cs",
               "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\LoginsController.cs",
               "RelativeDocumentMoniker": "CatShop_api\\Controllers\\LoginsController.cs",
               "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\LoginsController.cs",
               "RelativeToolTip": "CatShop_api\\Controllers\\LoginsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T08:37:02.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "CatShop_api\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\Internship\\CatShop_api\\CatShop_api\\CatShop_api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "CatShop_api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwCsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T08:33:56.472Z",
               "EditorCaption": ""

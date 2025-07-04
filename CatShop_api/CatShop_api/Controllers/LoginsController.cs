@@ -50,7 +50,7 @@ namespace CatShop_api.Controllers
 
                 var loginCreate = new Login
                 {
-                    Loginid = new Guid(),
+                    Loginid = Guid.NewGuid(),
                     LoginDateTime = DateTime.Now,
                     Userid = userlogin.Userid,
                 };
