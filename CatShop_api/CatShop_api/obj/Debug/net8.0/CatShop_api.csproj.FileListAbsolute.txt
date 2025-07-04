@@ -206,3 +206,4 @@ D:\Internship\CatShop_api\CatShop_api\CatShop_api\obj\Debug\net8.0\CatShop_api.p
 D:\Internship\CatShop_api\CatShop_api\CatShop_api\obj\Debug\net8.0\CatShop_api.genruntimeconfig.cache
 D:\Internship\CatShop_api\CatShop_api\CatShop_api\obj\Debug\net8.0\ref\CatShop_api.dll
 D:\Internship\CatShop_api\CatShop_api\CatShop_api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Internship\CatShop_api\CatShop_api\CatShop_api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

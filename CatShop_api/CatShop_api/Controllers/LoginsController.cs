@@ -40,6 +40,7 @@ namespace CatShop_api.Controllers
             var result = aESOparation.VerifyPassword(loginsRequest.Password, userlogin.PasswordHash, userlogin.PasswordSalt);
             if (result)
             {
+                
                 //var userid = userlogin.Select(x => x.Userid).FirstOrDefault();
 
                 loginResponse.IsSuceess = true;
@@ -54,7 +55,7 @@ namespace CatShop_api.Controllers
                     LoginDateTime = DateTime.Now,
                     Userid = userlogin.Userid,
                 };
-
+             
                 _context.Login.Add(loginCreate);
                 var resultSaveLogin = _context.SaveChanges();
                 if (resultSaveLogin == 0)
@@ -62,6 +63,9 @@ namespace CatShop_api.Controllers
                     loginResponse.IsSuceess = false;
                     loginResponse.message = "insert log Login Fail";
                 }
+
+                loginResponse.token = JWT_Services.Genaratoken(userlogin.Username);
+               
             }
  
 

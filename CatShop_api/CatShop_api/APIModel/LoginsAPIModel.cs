@@ -9,6 +9,7 @@
 
     public class LoginResponseModel
     {
+        public string token { get; set; }
         public bool IsSuceess { get; set; }
         public string UserName { get; set; }
 
