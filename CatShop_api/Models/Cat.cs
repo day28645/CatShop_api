@@ -26,4 +26,6 @@ public partial class Cat
     public string? ImagePath { get; set; }
 
     public string? CatStatus { get; set; }
+
+    public string? CatName { get; set; }
 }

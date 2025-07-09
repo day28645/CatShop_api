@@ -23,7 +23,7 @@ namespace CatShop_api
                 issuer: "day.com",
                 audience: "day.com",
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30),
+                expires: DateTime.Now.AddMinutes(60),
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

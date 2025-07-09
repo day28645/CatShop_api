@@ -18,7 +18,5 @@
         public string Userid { get; set; }
 
         public string message {  get; set; }    
-
-
     }
 }

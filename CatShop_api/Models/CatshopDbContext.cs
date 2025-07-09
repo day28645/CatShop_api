@@ -117,6 +117,10 @@ public partial class CatshopDbContext : DbContext
                 .HasColumnName("catid");
             entity.Property(e => e.Birthdate).HasColumnName("birthdate");
             entity.Property(e => e.Breedid).HasColumnName("breedid");
+            entity.Property(e => e.CatName)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("catName");
             entity.Property(e => e.CatStatus)
                 .HasMaxLength(50)
                 .IsUnicode(false);
