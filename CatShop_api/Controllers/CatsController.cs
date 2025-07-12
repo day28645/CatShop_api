@@ -62,8 +62,9 @@ namespace CatShop_api.Controllers
                 Idnumber = catsRequest.Idnumber,
                 Breedid = Guid.Parse(catsRequest.Breedid),
                 ImagePath = fileSavePath,
-                Images = imagename
-
+                Images = imagename,
+                CatStatus = catsRequest.CatStatus,
+                CatName = catsRequest.CatName
             };
 
             _context.Cats.Add(catCreate);

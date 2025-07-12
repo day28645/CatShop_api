@@ -17,6 +17,10 @@
         public string? Size { get; set; }
 
         public string? Breedid { get; set; }
+
+        public string? CatStatus { get; set; }
+
+        public string? CatName { get; set; }
     }
 
     public class AddCatsResponseMOdel
@@ -34,5 +38,9 @@
         public string? Images { get; set; }
 
         public Guid? Breedid { get; set; }
+
+        public string? CatStatus { get; set; }
+
+        public string? CatName { get; set; }
     }
 }
